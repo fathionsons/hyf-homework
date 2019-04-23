@@ -1,0 +1,133 @@
+.avatar{
+    border-radius: 50%;
+    width: 300px;
+    border: 1px rgb(228, 204, 204) solid;
+    margin-left: 15%;
+    position: relative;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+  
+    
+}
+body{
+    border: 2px rgb(228, 204, 204) solid;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+h1{
+    padding-left: 50%;
+    height: 50%;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    top:-200px;
+    position: relative;
+    
+    
+    
+  
+    
+}
+main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 2%;
+    padding-top: auto;
+    float: right;
+    text-align: center;
+    position: relative;
+    border-left: 1px rgb(189, 140, 84) hidden;
+    height: -200px;
+    
+
+    margin-right: 250px;
+}
+h2{
+    color:rgba(184, 159, 159, 0.61);
+    text-decoration: underline;
+    text-decoration-color: rgb(195, 190, 201);
+    border-left: 0px black solid;
+    
+    
+    border-color: rgb(128, 155, 243);
+    
+
+    
+}
+.theline{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    margin-right: 25%;
+    text-align: center;
+    padding-top: auto;
+    margin-top: -350px;
+    width: 25%;
+    margin-left: 10%;
+    height: -200px;
+}
+ul li{
+    color: rgb(3, 168, 127);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    color: rgb(201, 185, 95);
+    background-color: rgb(249, 255, 191);
+    
+}
+.theheadbox{
+    
+    padding: 200px;
+    margin-bottom: -500px;
+    top: -540px;
+    position: relative;
+    background-color:rgb(236, 125, 125) ;
+    border-top: 200px rgb(255, 255, 255) solid;
+    border-left: 0px rgb(255, 255, 255) solid;
+    border-bottom: 0px rgb(255, 255, 255) solid;
+    border-right: 0px rgb(255, 255, 255) solid;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    z-index: -1;
+}
+.telephone{
+    padding-top: 500px;
+    padding-left: 200px;
+    position: absolute;
+    
+
+}
+
+.email{
+    padding-top: 500px;
+    padding-left: 300px;
+    position: absolute;
+}
+.facebook{
+    padding-top: 500px;
+    padding-left: 400px;
+    position: absolute;
+
+}
+.website{
+    padding-top: 500px;
+    padding-left: 500px;
+    position: absolute;
+}
+.icons1{
+    float:right;
+    position: relative;
+}
+.icons2{
+    float:left;
+    position: relative;
+}
