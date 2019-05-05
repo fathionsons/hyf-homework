@@ -1,0 +1,207 @@
+
+
+/*body*/
+body{
+    margin: auto;
+    
+}
+.theboxheader {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: rgb(245, 245, 245);
+    background-position: 100%;
+    border-bottom: 2px solid rgb(223, 223, 223);
+    padding-top: 30px;
+    
+    
+
+    
+}
+.theboxheader a{
+    word-spacing: 3px;
+    text-decoration-style: solid;
+    margin-left: 15%;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    
+
+   
+    
+}
+p{
+    color: rgb(148, 135, 135);
+}
+header p{
+    color: rgb(148, 135, 135);
+    margin-left: 15%;
+    padding-bottom: 50px;
+}
+a{
+    color: black;
+}
+
+a:active {
+    color: rgb(121, 120, 120);
+    text-decoration: none;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(179, 167, 147);
+    
+}
+.theoptions{
+    
+    text-decoration: none;
+    margin-left: 15%;
+    word-spacing: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.picture{
+    width: 100%;
+    height: 700px;
+}
+.themain{
+    display: flex;
+    flex-direction: row;
+    margin-left:30px;
+    font-size: 10px;
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+.themainproblemspace{
+    margin-left: 50px;
+}
+.themain2 {
+    display:flex;
+    flex-direction: row;
+    
+
+    
+    font-size: 10px;
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.themain2problemspace{
+    margin-left: 50px;
+    
+   
+}   
+.thefirstcolumnoficons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    line-height: 100px;
+    
+
+}
+.theseconcolumnoficons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 100px;
+    
+}
+.thethirdcolumnoficons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 100px;
+}
+.theproblemiconsnottheunderthetitleLogo{
+   display: flex;
+   flex-direction: row;
+   flex-basis: 100%;
+   margin-left: 15%;
+   font-size: 10px;
+    
+    
+/*I made "the gallery and it's text disappeared 
+because I could not make the icons under the title
+ logotype on the web 
+so the text is hidden*/
+}
+.theproblemiconsnottheunderthetitleLogo h1 p {
+    
+    visibility: hidden;
+}
+.theproblemiconsnottheunderthetitleLogo h1  {
+    
+    visibility: hidden;
+}
+/*footer*/
+.thefooter{
+    background-color: rgb(71, 52, 133);
+    padding-top: 100px;
+    padding-bottom:200px; 
+    padding: auto;
+}
+
+    
+footer img{
+    margin-left: 15%;
+    
+}
+footer p{
+    margin-left: 15%;
+    color: white;
+    font-size: 20px;
+    
+}
+footer a  {
+    display:flex;
+    flex-direction: column;
+    margin-left: 15%;
+    color:white;
+    line-height: 50px;
+    font-size: 20px;
+    
+   
+}
+h2{
+    color: white;
+    margin-left: 15%;
+    
+}
+    
+    
+
+
+h2 a{
+    color: white;
+    margin-left: 15%;
+}
+.footerfathi{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    
+    
+}
+.findus{
+    margin-left: 15%;
+    float: left;
+    margin-right: 2%;
+    
+}
+.archives{
+    margin-left: 90px;
+}
+.nav{
+    margin-left: 90px;
+}
