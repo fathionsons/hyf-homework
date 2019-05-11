@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url(https://image.slidesharecdn.com/2017-05-17fromaws2fstupstokubernetesonaws-berlinkubernetesmeetup-170518194936/95/from-awsstups-to-kubernetes-on-aws-zalando-berlin-kubernetes-meetup-2-638.jpg?cb=1495137055);
+    background-size: cover;
+}
+img{
+    position: absolute;
+    margin-left: 200px;
+    
+    
+    
+}
+.button{
+    margin-left: 1500px;
+    margin-top:20px;
+    position: absolute;
+    
+    
+    
+    
+    
+    
+
+}
+.background{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-size: cover;
+}
+button:hover{
+    color:orange;
+    border: none;
+    background-color: white
+    
+    
+}

@@ -1,0 +1,54 @@
+body{
+    margin-left: 300px;
+    width: 80%;
+    justify-content: center;
+    background-image: url(https://previews.123rf.com/images/rclassenlayouts/rclassenlayouts1711/rclassenlayouts171100004/89388023-berlin-germany-october-2017-zalando-logo-on-a-box-zalando-is-a-german-electronic-commerce-company-se.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+      
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+form{
+    width: 90%;
+    align-items: center;
+}
+.mainform{
+    width: 80%;
+    align-content: center;
+}
+.progressbar{
+    width: 90%;
+    height: 30px;
+    border: 1px rgb(255, 0, 34) solid;
+}  
+
+nav{
+    width: 50%;
+    height: 60px;
+    border: 10px;
+    border-color: black;
+    background-color: rgb(218, 134, 9);
+    text-align: center; 
+    margin-right: 200px;
+    padding-top: 20px;  
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+   padding-bottom: 30px;
+}
+
