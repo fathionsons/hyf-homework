@@ -1,0 +1,33 @@
+li {list-style-type: none;
+    font-size: 40pt;
+    }
+
+    .form
+    {
+     width: 900px;
+    background : rgb(245, 229, 7);
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    
+    
+    }
+    input {
+        font-size: 30px;
+        }
+    .form h2 {
+    margin-left: 68px;
+    color: blue;
+    }
+   
+    input:focus, textarea:focus{
+    background-color: white;
+    }
+    input submit {
+    font-size: 9px;
+    }
+    .req {
+    color: rgb(2, 32, 21);
+    font-size: 20px;
+    }
+    
