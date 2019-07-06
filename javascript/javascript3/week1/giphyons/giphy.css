@@ -1,0 +1,40 @@
+
+.things{
+    width:60%;
+    margin:0 auto;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search
+{
+    width : 500px;
+    border:3.5px solid rgb(255, 0, 0);
+    padding:13px;
+    font-size:20px;
+    margin-bottom:5px;
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150px;
+    color: red;
+}
+#finderbutton
+{
+    background-color:rgb(255, 0, 43);
+    padding:30px;
+    border-radius: 500px;
+    color:rgb(255, 255, 255);
+    font-size:50px;
+    border:indianred;
+    margin-bottom:35px;
+}
+body{
+    background-image: url("https://lydogbillede.dk/wp-content/uploads/2012/11/Desert-Wallpapers-HD-6-990x500.jpg");
+    background-size: 100%;
+}
+/* done by FATHI homework of javascript 3 week 1 

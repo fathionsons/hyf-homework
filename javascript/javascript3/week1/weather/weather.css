@@ -1,0 +1,102 @@
+#imageons
+{
+    width:700px;
+    height:50px;
+}
+.information
+{
+    display : block;
+    font-size :20px;
+    color: white;
+}
+/* done by FATHI homework of javascript 3 week 1*/
+#containfinder input{
+    width :100px;
+    border:2.5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-right: 300px;
+    margin-left: 250px;
+    
+}
+#containfinder button 
+{
+    width : 100px;
+    height: auto;
+    background-color:rgb(66, 64, 194);
+    margin-right:10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding:21px;
+}
+.inputbutton
+{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    border-radius: 15px;
+    padding:10px;
+    
+}
+#thelocationofyou
+{
+    font-size:20px;
+    position: absolute;
+    margin-left: -45px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+#theweather h1{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.finder 
+{
+    font-size:1em;
+    padding:25px 20px 20px;
+    
+}
+#theweather
+{
+    
+    background-color: rgb(98, 0, 255);
+    padding:41px;
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    border-radius: 50px;
+  
+}
+#weatherfathi
+{
+    display : block;
+}
+#weatherfathi div{
+    display : inline-block;
+}
+#responseons
+{
+    font-size: 20px;
+    margin-left:22px;
+    vertical-align: 100%;
+    margin-right:30px;
+}
+#prefetchonsfathi
+{
+    font-size: 30px;
+    vertical-align:100%;
+}
+body{
+    background-image : url('https://cn.opendesktop.org/img/8/6/1/2/e471cf130efb6c2b008102638db0db5225c9.jpg');
+    background-size: cover;
+    
+}
+h1{
+    font-family:monospace;
+    font-size:100px;
+    color: white;
+    text-align: start;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>weather Fathi</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="weather.css"/>
+</head>
+<body>
+    <div class="inputbutton">
+        <div id="containfinder">
+            <h1>WEATHER</h1>
+            <input type="text" class="finder" placeholder="the name of the city">
+            <button id="searchbutton" class="finder">SUBMIT</button>
+            <button id="thelocationofyou">YOUR location</button>
+        </div>
+        <div id="theweather">
+            <h1 id="thecity"></h1>
+            <div id="weatherfathi">
+                <div id="prefetchonsfathi"></div>
+                <div id="responseons"></div>
+                <div>
+                    <img id="imageons">
+                </div>
+            </div>
+            <hr>
+            <div id="hm" class="information"></div>
+            <div id="wd" class="information"></div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAknDa79eDDHQpzrKjpAsUpfd01r-dW_kU&callback=initMap"
+    type="text/javascript"></script>
+</body>
+</html>
