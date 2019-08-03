@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jeg shopper efter Fathi</title>
+    <link rel="stylesheet" href="css2.css">
+    <link rel="stylesheet" href="css.css">
+    <script src="javascript.js" async></script>
+</head>
+<body>
+    
+    <div class="container">
+            
+        <div class="left-side">
+                <header>
+                    
+                </header>
+            <div class="left-side-content">
+
+                <div class="search-field">
+                    <button class="input-button">Søg for produkterne</button>
+                    <input type="text" placeholder="indtast din yndlingsprodukt">
+                    <span class="not-found-span">mangelfuld produkt</span>
+                </div>
+                
+
+                <div class="shop-items">
+                   
+                    <ul class="all-products"></ul>
+                </div>
+            
+                <div class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">close</span>
+                        <h4></h4>
+                        <h5></h5>
+                        <p></p>
+                        <img  alt="image" style="max-width: 200px">
+                        <button id='add-to-cart-in-product-info'>tilføj</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="right-side">
+            <div class="shoppingcart-modal">
+                <header class="shoppingcart-header">
+                        
+                        <h4 class="username"></h4>
+                </header>
+                <div class="shoppingcart-modal-content">
+                    
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column"></span>
+                        <span class="cart-price cart-header cart-column"></span>
+                        <span class="cart-quantity cart-header cart-column"></span>
+                    </div>
+                    <div class="cart-items">
+                        <ul class="shoppingcart-ul"></ul>
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">helheden</strong>
+                        <span class="cart-total-price"></span>
+                        <span class="cart-total-valuta">Dkk</span>
+                    </div>
+                    <button class="purchase-button">køb hvad venter du på? rabatten!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
