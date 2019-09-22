@@ -1,0 +1,12 @@
+const express = require("express");
+const app = express();
+const mealsRouter = require("./api/meals");
+const reservationsRouter = require("./api/reservations");
+const reviewsRouter = require("./api/reviews");
+const port = process.env.PORT || 5000;
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use("/api/meals", mealsRouter);
+app.use("/api/reservations", reservationsRouter);
+app.use("/api/reviews", reviewsRouter);
+app.listen(port, () => console.log(`Server listening on port ${port}!`));
